@@ -5,6 +5,14 @@ public class VehicleMaster {
 	private String registrationNumber;
 	private String color;
 
+	
+
+	public VehicleMaster(int vehicleID, String registrationNumber) {
+		super();
+		this.vehicleID = vehicleID;
+		this.registrationNumber = registrationNumber;
+	}
+
 	public int getVehicleID() {
 		return vehicleID;
 	}
